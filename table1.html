@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo bảng cơ bản</title>
+    <style>
+        .mytable{
+            width: 100%;
+            border: 5px solid rgb(153, 175, 150);
+            border-collapse: collapse;
+            font-family: arial, sans-serif;
+        }
+        th, td{
+            padding: 5px;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+       background-color: rgb(223, 199, 199);
+       }
+     tr:nth-child(odd) {
+      background-color:rgb(250, 135, 135);
+   }
+      th {
+    background-color: rgb(231, 36, 36);
+    color: rgb(207, 135, 135);
+    }
+    </style>
+</head>
+<body>
+    <table class="mytable" border="1">
+        <tr >
+            <th style="color:rgb(29, 29, 238);"><b>Company</b></th>
+            <th style="color:rgb(29, 29, 238);"><b>Contact</b></th>
+            <th style="color:rgb(29, 29, 238)"><b>Country</b></th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+    </tr>
+    <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+    </tr>
+    <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+    </tr>
+    <tr>
+        <td>Magazzini Alientari riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+    </tr>
+    </table>
+</body>
+</html>
